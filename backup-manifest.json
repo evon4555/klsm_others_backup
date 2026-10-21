@@ -1,0 +1,482 @@
+{
+  "format": "codex-migration-backup-v1",
+  "repository": "evon4555/klsm_others_backup",
+  "encryption": "AES-256-GCM; independently authenticated 128 MiB parts",
+  "started_at": "2026-10-21T13:16:24.434878+00:00",
+  "status": "building",
+  "excluded_root": "D:\\Workspace",
+  "packages": [
+    {
+      "id": "codex-home",
+      "source": "C:\\Users\\klsm\\.codex",
+      "files": 2266,
+      "source_bytes": 1594160851,
+      "zip_bytes": 1287651824,
+      "zip_sha256": "e73686d0cadcf5277daefe1c01fe73d4adcfe6c5031ba31186cc0cd78d8bc471",
+      "parts": [
+        {
+          "name": "codex-home.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "b87aba928d21e2106b249c3a88471582cc00b32abfc62836e7af9b46bce748bd"
+        },
+        {
+          "name": "codex-home.0002.cbx",
+          "bytes": 134217760,
+          "sha256": "4842bc8edd51def1d471fe8cdc98ac5730834cf93e2fc307c48568de1e5338d0"
+        },
+        {
+          "name": "codex-home.0003.cbx",
+          "bytes": 134217760,
+          "sha256": "8786b1f54df4753771f2fe11ae6bd790421a2d5c846a5245030a8bbc745fa211"
+        },
+        {
+          "name": "codex-home.0004.cbx",
+          "bytes": 134217760,
+          "sha256": "bb1eef2f65e50010fdd2c92e04ff5ec980afcfef5fc55e22346d55fb39aeb69c"
+        },
+        {
+          "name": "codex-home.0005.cbx",
+          "bytes": 134217760,
+          "sha256": "7daf67cac96cfee942e2221de3fc0e7bd0884c9406acaea91f006ae67310455b"
+        },
+        {
+          "name": "codex-home.0006.cbx",
+          "bytes": 134217760,
+          "sha256": "6eee8a79cb8b0b674a5c858e2e90e0ed109077ad69fb4aed4146322c374c22ab"
+        },
+        {
+          "name": "codex-home.0007.cbx",
+          "bytes": 134217760,
+          "sha256": "b46774a8a1e958beea3b50cf6fdcdaf17d0ba23f809315aac7d042a1b5c84ff5"
+        },
+        {
+          "name": "codex-home.0008.cbx",
+          "bytes": 134217760,
+          "sha256": "2ff04201843f22027f18250f36f721c0ef709d38e6c199bbe7144f4ca0e39276"
+        },
+        {
+          "name": "codex-home.0009.cbx",
+          "bytes": 134217760,
+          "sha256": "3e3abc56fdb91446c331f1cf356c3cd8f86074f781b2157595db9bcca773e63f"
+        },
+        {
+          "name": "codex-home.0010.cbx",
+          "bytes": 79692304,
+          "sha256": "23580de11ccaadbf559c870a2933a651a75d0b38d4c9215b0c5ca1a889ac282f"
+        }
+      ],
+      "errors": 1,
+      "warnings": 0,
+      "excluded_count": 43,
+      "excluded_reasons": {
+        "runtime_cache_or_authentication": 13,
+        "diagnostic_or_transient_file": 7,
+        "credential_file": 4,
+        "database_sidecar_replaced_by_consistent_snapshot": 12,
+        "reinstallable_plugin_runtime": 2,
+        "reinstallable_environment": 5
+      },
+      "snapshot_started_at": "2026-10-21T13:16:24.651596+00:00",
+      "snapshot_completed_at": "2026-10-21T13:17:34.853104+00:00"
+    },
+    {
+      "id": "codex-desktop-roaming",
+      "source": "C:\\Users\\klsm\\AppData\\Roaming\\Codex",
+      "files": 17,
+      "source_bytes": 556261,
+      "zip_bytes": 269561,
+      "zip_sha256": "e2bbc0cf31f0eed6d88fb4b425731cdae3d7bf4f0e98c7cee3a39e6399b4a852",
+      "parts": [
+        {
+          "name": "codex-desktop-roaming.0001.cbx",
+          "bytes": 269593,
+          "sha256": "5959f8944865767b8c9ab00a662a189508e74df6fa03a6078cd48a5f1644eff8"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 12,
+      "excluded_reasons": {
+        "application_cache_or_authentication": 11,
+        "database_sidecar_replaced_by_consistent_snapshot": 1
+      },
+      "snapshot_started_at": "2026-10-21T13:17:41.345727+00:00",
+      "snapshot_completed_at": "2026-10-21T13:17:41.503905+00:00"
+    },
+    {
+      "id": "codex-store-appdata",
+      "source": "C:\\Users\\klsm\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0",
+      "files": 146,
+      "source_bytes": 309681588,
+      "zip_bytes": 21674959,
+      "zip_sha256": "86ba462da1a0b7b9acba302546fc2b8a82dee1f695b02884cf89fdf19c2c3056",
+      "parts": [
+        {
+          "name": "codex-store-appdata.0001.cbx",
+          "bytes": 21674991,
+          "sha256": "da426895848525c3aa0a2e9590a8be295305beccb06829fc57986e31b7b8cbbb"
+        }
+      ],
+      "errors": 3,
+      "warnings": 0,
+      "excluded_count": 31,
+      "excluded_reasons": {
+        "application_cache_or_authentication": 17,
+        "credential_file": 1,
+        "database_sidecar_replaced_by_consistent_snapshot": 13
+      },
+      "snapshot_started_at": "2026-10-21T13:17:41.622116+00:00",
+      "snapshot_completed_at": "2026-10-21T13:17:47.397808+00:00"
+    },
+    {
+      "id": "codex-documents",
+      "source": "C:\\Users\\klsm\\Documents\\Codex",
+      "files": 3447,
+      "source_bytes": 541268860,
+      "zip_bytes": 348294417,
+      "zip_sha256": "381ced028e24e4d7461931809f75120600ee1f2b771e8aff8e9e4f84618d34d6",
+      "parts": [
+        {
+          "name": "codex-documents.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "bd4ff01a195208552fcc55ff845d76730604ac6a988bb39cee143c58ab447c8e"
+        },
+        {
+          "name": "codex-documents.0002.cbx",
+          "bytes": 134217760,
+          "sha256": "921cc48239058613a81ed1f6bb2bcd5e95686bec95e1747026a681b31392861a"
+        },
+        {
+          "name": "codex-documents.0003.cbx",
+          "bytes": 79858993,
+          "sha256": "11c1e47170dea738ed34f8ea9453da8088673e6979be330e9ce35efd21047a36"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 183,
+      "excluded_reasons": {
+        "reinstallable_environment": 181,
+        "credential_file": 1,
+        "dependency_link_reinstall": 1
+      },
+      "snapshot_started_at": "2026-10-21T13:17:47.763961+00:00",
+      "snapshot_completed_at": "2026-10-21T13:19:26.701989+00:00"
+    },
+    {
+      "id": "downloads-sun2",
+      "source": "C:\\Users\\klsm\\Downloads\\sun2",
+      "files": 1518,
+      "source_bytes": 477266346,
+      "zip_bytes": 345272072,
+      "zip_sha256": "f37614d0c3b66567d89e70178c9669fd411270515fd412145b930c5d0081aa9e",
+      "parts": [
+        {
+          "name": "downloads-sun2.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "43ec9fe14985569bccf6b13fff6e0951e2d3d1f4d57e217077317df536e04524"
+        },
+        {
+          "name": "downloads-sun2.0002.cbx",
+          "bytes": 134217760,
+          "sha256": "848d334ae67760f20b790641f2dfae9cd7189eacc110f7cffc0b4c878a0a0e03"
+        },
+        {
+          "name": "downloads-sun2.0003.cbx",
+          "bytes": 76836648,
+          "sha256": "e12f6fce71c5961904887767a4427a86a127c0805b17f9b5476ede0ca5656fdd"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 7,
+      "excluded_reasons": {
+        "dependency_link_reinstall": 5,
+        "reinstallable_environment": 2
+      },
+      "snapshot_started_at": "2026-10-21T13:19:28.521562+00:00",
+      "snapshot_completed_at": "2026-10-21T13:20:06.772291+00:00"
+    },
+    {
+      "id": "workspace-tools-rootfiles",
+      "source": "D:\\workspace_tools",
+      "files": 4,
+      "source_bytes": 61897,
+      "zip_bytes": 18445,
+      "zip_sha256": "94a0148c4d81c95baa90cefabb822755e5e94860f0f4407c1e3172d8181edf45",
+      "parts": [
+        {
+          "name": "workspace-tools-rootfiles.0001.cbx",
+          "bytes": 18477,
+          "sha256": "ef715aa0b2a32ce482f21022d5a918329a781017360620323bb737f0cda21dd7"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 14,
+      "excluded_reasons": {
+        "separate_project_package": 14
+      },
+      "snapshot_started_at": "2026-10-21T13:20:08.748577+00:00",
+      "snapshot_completed_at": "2026-10-21T13:20:08.780933+00:00"
+    },
+    {
+      "id": "workspace-tools-project-01",
+      "source": "D:\\workspace_tools\\AI Leaning",
+      "files": 150,
+      "source_bytes": 35977196,
+      "zip_bytes": 32527458,
+      "zip_sha256": "7964544f49b0c3ec8c656e4ca028269b27a88a1d5a8c1fb86a241dc17a3458d4",
+      "parts": [
+        {
+          "name": "workspace-tools-project-01.0001.cbx",
+          "bytes": 32527490,
+          "sha256": "9ef8dafb5aa38874bb90ba0e156e86b33cb9fed7c60ed6c7a86584d1bf984200"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 1,
+      "excluded_reasons": {
+        "current_backup_work_directory": 1
+      },
+      "snapshot_started_at": "2026-10-21T13:20:08.878316+00:00",
+      "snapshot_completed_at": "2026-10-21T13:20:12.706025+00:00"
+    },
+    {
+      "id": "workspace-tools-project-02",
+      "source": "D:\\workspace_tools\\Exam",
+      "files": 4085,
+      "source_bytes": 902063131,
+      "zip_bytes": 670540804,
+      "zip_sha256": "65bcfd1d1ed5c2add6c9cdf852e54b83d3e38628485858d4ef6aa67e4ce3eee3",
+      "parts": [
+        {
+          "name": "workspace-tools-project-02.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "a64d7fc1b2a078777152a276e9ec88e374095885dadfe2df5019b8451121cd1a"
+        },
+        {
+          "name": "workspace-tools-project-02.0002.cbx",
+          "bytes": 134217760,
+          "sha256": "d8eac577ca20a7c491aa2df60e4b43b810435192f51cebb00795f2f69e947b67"
+        },
+        {
+          "name": "workspace-tools-project-02.0003.cbx",
+          "bytes": 134217760,
+          "sha256": "b38afb77405f7f8fef19ba461740c8f79493c539da220c723d3f4103f1419057"
+        },
+        {
+          "name": "workspace-tools-project-02.0004.cbx",
+          "bytes": 134217760,
+          "sha256": "6419f4f9a29b15a3359233637c4c78d7f5132bfae8a6a43dec5dd45263d74874"
+        },
+        {
+          "name": "workspace-tools-project-02.0005.cbx",
+          "bytes": 133669924,
+          "sha256": "18783b9d94c50463629b553992175671d3cb695ca308af56da8b8bf4ef910cfb"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 246,
+      "excluded_reasons": {
+        "reinstallable_environment": 220,
+        "credential_file": 8,
+        "database_sidecar_replaced_by_consistent_snapshot": 18
+      },
+      "snapshot_started_at": "2026-10-21T13:20:13.175633+00:00",
+      "snapshot_completed_at": "2026-10-21T13:22:10.036197+00:00"
+    },
+    {
+      "id": "workspace-tools-project-03",
+      "source": "D:\\workspace_tools\\Test Case Review and Update",
+      "files": 3,
+      "source_bytes": 2244666,
+      "zip_bytes": 1132229,
+      "zip_sha256": "5702126014c4b23de2edfb83f1f0b449e96634f709b137f6c03f6bb35915be9e",
+      "parts": [
+        {
+          "name": "workspace-tools-project-03.0001.cbx",
+          "bytes": 1132261,
+          "sha256": "83ba9677eed770631538a43e0dcd9b4b84525b79e4b7c04ced6a42f14f40b710"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 0,
+      "excluded_reasons": {},
+      "snapshot_started_at": "2026-10-21T13:22:14.102065+00:00",
+      "snapshot_completed_at": "2026-10-21T13:22:14.211408+00:00"
+    },
+    {
+      "id": "workspace-tools-project-04",
+      "source": "D:\\workspace_tools\\nanoclaw",
+      "files": 6,
+      "source_bytes": 5534,
+      "zip_bytes": 5384,
+      "zip_sha256": "62668a13c72a25ccf2c42cbc8f3fb51ee527d6c7a2f7ead23cc3dde3e8854ba5",
+      "parts": [
+        {
+          "name": "workspace-tools-project-04.0001.cbx",
+          "bytes": 5416,
+          "sha256": "39804bd118265f9726173568aa8b108819be271f3fc3e1ab1fcedbeb95635217"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 0,
+      "excluded_reasons": {},
+      "snapshot_started_at": "2026-10-21T13:23:45.582434+00:00",
+      "snapshot_completed_at": "2026-10-21T13:23:45.807991+00:00"
+    },
+    {
+      "id": "workspace-tools-project-05",
+      "source": "D:\\workspace_tools\\personal health check",
+      "files": 4,
+      "source_bytes": 2303729,
+      "zip_bytes": 1899719,
+      "zip_sha256": "65772df9f247d45a2d434726422e90376bdcce00f0a435755f5d1244a64435b4",
+      "parts": [
+        {
+          "name": "workspace-tools-project-05.0001.cbx",
+          "bytes": 1899751,
+          "sha256": "fa5a59b7937ea10066cb117745820713b1645900df6c7996f6f9a2f02110aaed"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 0,
+      "excluded_reasons": {},
+      "snapshot_started_at": "2026-10-21T13:23:45.915804+00:00",
+      "snapshot_completed_at": "2026-10-21T13:23:46.031728+00:00"
+    },
+    {
+      "id": "workspace-tools-project-06",
+      "source": "D:\\workspace_tools\\sun2",
+      "files": 4029,
+      "source_bytes": 517225823,
+      "zip_bytes": 381024471,
+      "zip_sha256": "a7b56abb46b9c24a16a252a934bfc98643299f83f50a67916b8c9f393748ed1b",
+      "parts": [
+        {
+          "name": "workspace-tools-project-06.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "e6bea5f292908b7067e4a17c109e52785844d81f090bcba08cb6bc3a9242f552"
+        },
+        {
+          "name": "workspace-tools-project-06.0002.cbx",
+          "bytes": 134217760,
+          "sha256": "d6a9e1b94e5f75cd43ff22e7ed6e084a8f9a2d3930564a32de026d890aa6ec9d"
+        },
+        {
+          "name": "workspace-tools-project-06.0003.cbx",
+          "bytes": 112589047,
+          "sha256": "722449c44bdfc17d4b0054bc7aa1c36769adc68eac700c465f4531c68ab3f1c9"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 181,
+      "excluded_reasons": {
+        "reinstallable_environment": 178,
+        "dependency_link_reinstall": 3
+      },
+      "snapshot_started_at": "2026-10-21T13:23:46.370587+00:00",
+      "snapshot_completed_at": "2026-10-21T13:25:16.818768+00:00"
+    },
+    {
+      "id": "workspace-tools-project-07",
+      "source": "D:\\workspace_tools\\wangyifan",
+      "files": 560,
+      "source_bytes": 190698167,
+      "zip_bytes": 162543146,
+      "zip_sha256": "02545ed2858916d253a2e44a07c5742e3afe222a104033afbd9b696b501340a6",
+      "parts": [
+        {
+          "name": "workspace-tools-project-07.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "d2197bd660a172bb957395b464ae521b3944ddd52efa0ea4a756ef863d5add17"
+        },
+        {
+          "name": "workspace-tools-project-07.0002.cbx",
+          "bytes": 28325450,
+          "sha256": "79621f87fcb3e39f7467c0bc6becf60a8b5c47091abfd72ab803b93c96fda032"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 1,
+      "excluded_reasons": {
+        "dependency_link_reinstall": 1
+      },
+      "snapshot_started_at": "2026-10-21T13:25:19.007335+00:00",
+      "snapshot_completed_at": "2026-10-21T13:25:34.071589+00:00"
+    },
+    {
+      "id": "workspace-tools-project-08",
+      "source": "D:\\workspace_tools\\webpage_to_word_preserver_v8",
+      "files": 0,
+      "source_bytes": 0,
+      "zip_bytes": 288,
+      "zip_sha256": "30f979bdcfce4314472fa622682d8546f07eaaabb48a2f6b229d13b94d17e7c1",
+      "parts": [
+        {
+          "name": "workspace-tools-project-08.0001.cbx",
+          "bytes": 320,
+          "sha256": "b6aa753c6362a05a2bc88f4b0bf4ea00d32b84c86c4e1b28351be8eb3fed8467"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 0,
+      "excluded_reasons": {},
+      "snapshot_started_at": "2026-10-21T13:25:35.024461+00:00",
+      "snapshot_completed_at": "2026-10-21T13:25:35.024642+00:00"
+    },
+    {
+      "id": "workspace-tools-project-09",
+      "source": "D:\\workspace_tools\\west-kowloon-website-performance-api-2026-06-22",
+      "files": 27,
+      "source_bytes": 4489460,
+      "zip_bytes": 763880,
+      "zip_sha256": "a97398d88be225ab46a729112c240cf9b839ee9eb167ea83e1eb71b0cb039523",
+      "parts": [
+        {
+          "name": "workspace-tools-project-09.0001.cbx",
+          "bytes": 763912,
+          "sha256": "a6593ea37bcb2a6b3dadea0d420601adcb90188824fc1212b0e054e4a79e317b"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 1,
+      "excluded_reasons": {
+        "reinstallable_environment": 1
+      },
+      "snapshot_started_at": "2026-10-21T13:25:35.129720+00:00",
+      "snapshot_completed_at": "2026-10-21T13:25:35.992669+00:00"
+    },
+    {
+      "id": "workspace-tools-project-10",
+      "source": "D:\\workspace_tools\\workout",
+      "files": 2,
+      "source_bytes": 425977,
+      "zip_bytes": 421831,
+      "zip_sha256": "58d49fa51e1bf9d4598386e4433610ecfe1b43bc184efec8b3025deb75698bcd",
+      "parts": [
+        {
+          "name": "workspace-tools-project-10.0001.cbx",
+          "bytes": 421863,
+          "sha256": "9a7404f2b70cef62f9bcba9bf1475bc0a90c16e169c832b4fd115d11cad1aeef"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "excluded_count": 0,
+      "excluded_reasons": {},
+      "snapshot_started_at": "2026-10-21T13:25:36.106061+00:00",
+      "snapshot_completed_at": "2026-10-21T13:25:36.138497+00:00"
+    }
+  ]
+}

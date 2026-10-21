@@ -1,0 +1,10 @@
+assets/
+restored/
+__pycache__/
+*.cbx
+*.zip
+*.key
+*恢复密钥*
+*key_base64*
+*.private.json
+*.log

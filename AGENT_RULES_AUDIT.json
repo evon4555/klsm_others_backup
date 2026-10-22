@@ -1,0 +1,109 @@
+{
+  "codex_global": {
+    "source": "C:\\Users\\klsm\\.codex\\AGENTS.md",
+    "package": "codex-home",
+    "sha256": "0f1ab73c95769e7feefa14e89f74e7c8eb737fab51e39ce65b3050493041d8cc",
+    "matches_live": true
+  },
+  "workspace": {
+    "repository": "evon4555/klsm_workspace",
+    "remote_main": "650df01b3cc4df3cf9ac2382b9145e804d65fd48",
+    "rules": [
+      {
+        "path": "AGENTS.md",
+        "remote_blob_sha256": "c130fba2ce173c2491d09d9fdabb3eccc5f9b693234819e01ab64dde2aae4b02",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "CLAUDE.md",
+        "remote_blob_sha256": "edae721ff351555a5e35ac4b8dcbcbdd78aeacf752dadfe4204cc7b207da95a9",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "CODEX.md",
+        "remote_blob_sha256": "92525c8f6d99b8a3bd0540af0f36e5daf8c99a14fd2bf396589d07c2b4a5074c",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "jockey club/AGENTS.md",
+        "remote_blob_sha256": "c3530687cf8d6ab5c34964fe0063af938d79bad1340e9080a3d767d2d5d7add6",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "jockey club/CLAUDE.md",
+        "remote_blob_sha256": "4f470cf8c3238c54e60c19ae4f6fdb6a976a0473571f45477fa014e7e6ffb248",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "jockey club/CODEX.md",
+        "remote_blob_sha256": "654cbe2455e5e92c9a11c7f9e2ec062d4ab608f94df36dc57226729ed0301cf4",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "qa-harness/02-platform/01-automation/CLAUDE.md",
+        "remote_blob_sha256": "77d574225057728005d624bac4e75e006e0bc84529289435c6fdfb54918fc62c",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "qa-harness/AGENTS.md",
+        "remote_blob_sha256": "86709909bc5ec80997966413b41cbf5ebeffe6a0eb967ecf62a7020239c169dd",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "qa-harness/CLAUDE.md",
+        "remote_blob_sha256": "56eff7ebe34a9bcbbde85b2b48018f74ca8e3a843f656d299c23b967b7da88c2",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "qa-harness/CODEX.md",
+        "remote_blob_sha256": "34a05ff7e69744e495b4cc6e3fd74d6667ea40146e4135cf9420cc9cbf2b9875",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "standard product/AGENTS.md",
+        "remote_blob_sha256": "cf21d721dbfd218f9b4620fd3749e461c40e4703b11d48b90a46b7f8465594c0",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "standard product/CLAUDE.md",
+        "remote_blob_sha256": "19ba7ee909191b00b4d86cf6c136bc20971bcb4e623bf45177cc186712f420e8",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "standard product/CODEX.md",
+        "remote_blob_sha256": "810f1d2f8cb78087ef83d9b4bd24034535987d78c5d7c4bbced7c88d855b90c3",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "west-kowloon/AGENTS.md",
+        "remote_blob_sha256": "943143434a2ca9fdb2f93d1147a628df98b14801050282d21f253a4b7c0608ce",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "west-kowloon/CLAUDE.md",
+        "remote_blob_sha256": "8506f926e008c999ace5ea69f55e1c62e28e195ec1711e859c1a07694bc12005",
+        "matches_live_after_line_ending_normalization": true
+      },
+      {
+        "path": "west-kowloon/CODEX.md",
+        "remote_blob_sha256": "e71cf408396dc21f174a607d6c0f05873945bd2b930829251268fa769bd8a5fe",
+        "matches_live_after_line_ending_normalization": true
+      }
+    ],
+    "all_match_live": true
+  },
+  "claude_personal": {
+    "windows_global_CLAUDE_md_exists": false,
+    "wsl_global_CLAUDE_md_exists": false,
+    "windows_package": "supplement-claude-windows-home-20261022",
+    "wsl_package": "supplement-claude-wsl-home-20261022"
+  },
+  "nanoclaw_rules": {
+    "package": "supplement-wsl-nanoclaw-20261022",
+    "paths": [
+      "CLAUDE.md",
+      "groups/main/CLAUDE.md",
+      "groups/global/CLAUDE.md"
+    ]
+  }
+}

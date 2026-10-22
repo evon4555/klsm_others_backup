@@ -2279,6 +2279,50 @@
       "target_platform": "windows",
       "snapshot_started_at": "2026-10-22T04:25:30.721261+00:00",
       "snapshot_completed_at": "2026-10-22T04:25:57.214473+00:00"
+    },
+    {
+      "id": "supplement-claude-windows-home-20261022",
+      "source": "C:\\Users\\klsm\\.claude",
+      "files": 952,
+      "source_bytes": 39832283,
+      "zip_bytes": 15495174,
+      "zip_sha256": "54efe99c874e4ea1bb5db1351459a90da3d7e06a94c1dbd610ae5dc8492ce07e",
+      "parts": [
+        {
+          "name": "supplement-claude-windows-home-20261022.0001.cbx",
+          "bytes": 15495206,
+          "sha256": "7c3c6c3c44f765b0677cec5bd50173e52c36c58e0efe90ed16943f1d785b365b",
+          "asset_id": 665921048,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-claude-windows-home-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T13:09:46.291187+00:00",
+      "snapshot_completed_at": "2026-10-22T13:10:10.257468+00:00"
+    },
+    {
+      "id": "supplement-claude-wsl-home-20261022",
+      "source": "/home/klsm/.claude",
+      "files": 479,
+      "source_bytes": 15620246,
+      "zip_bytes": 5825480,
+      "zip_sha256": "04d7f27e70fa904cc76ef4616fbbfbdde55963730a3d47e54c6a1f0a1fc15def",
+      "parts": [
+        {
+          "name": "supplement-claude-wsl-home-20261022.0001.cbx",
+          "bytes": 5825512,
+          "sha256": "6b3f822f44e311718f4902adea11ad3ad6d56a8543a19bb8c803dfdff0617cf2",
+          "asset_id": 665921046,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-claude-wsl-home-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "wsl",
+      "snapshot_started_at": "2026-10-22T13:10:11.316723+00:00",
+      "snapshot_completed_at": "2026-10-22T13:10:11.952074+00:00"
     }
   ],
   "completed_at": "2026-10-21T13:50:56.689250+00:00",
@@ -2321,7 +2365,7 @@
     "music_included": true,
     "all_remote_assets_reverified_at": "2026-10-22T03:50:37.965332+00:00"
   },
-  "supplement_verified_at": "2026-10-22T04:30:34.961859+00:00",
+  "supplement_verified_at": "2026-10-22T13:10:53.883370+00:00",
   "restore_order": [
     "codex-home",
     "codex-desktop-roaming",
@@ -2351,7 +2395,9 @@
     "supplement-nanoclaw-codex-home-20261022",
     "supplement-wsl-nanoclaw-20261022",
     "supplement-wsl-user-service-20261022",
-    "supplement-workspace-ignored-data-20261022"
+    "supplement-workspace-ignored-data-20261022",
+    "supplement-claude-windows-home-20261022",
+    "supplement-claude-wsl-home-20261022"
   ],
-  "handoff_completed_at": "2026-10-22T04:31:34.243356+00:00"
+  "handoff_completed_at": "2026-10-22T13:11:25.388233+00:00"
 }

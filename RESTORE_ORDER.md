@@ -31,8 +31,10 @@
 25. `supplement-workspace-uncommitted-20261022/data` → `D:\Workspace` （先克隆原 Workspace 仓库，再复制这些未提交文件）
 26. `supplement-nanoclaw-codex-home-20261022/data` → `C:\Users\klsm\AppData\Local\NanoClaw\codex-home` 
 27. `supplement-workspace-ignored-data-20261022/data` → `D:\Workspace` 
+28. `supplement-claude-windows-home-20261022/data` → `C:\Users\klsm\.claude` 
 
 ## wsl
 
 1. `supplement-wsl-nanoclaw-20261022/data` → `/home/klsm/nanoclaw` 
 2. `supplement-wsl-user-service-20261022/data` → `/home/klsm/.config/systemd/user` 
+3. `supplement-claude-wsl-home-20261022/data` → `/home/klsm/.claude` 

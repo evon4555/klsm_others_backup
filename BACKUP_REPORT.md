@@ -1,9 +1,9 @@
 # 迁移备份与恢复验证报告
 
 - 私有仓库：`evon4555/klsm_others_backup`；Release：`migration-2026-10-21`。
-- 共 29 个包、252 个加密分卷，压缩后约 30.98 GB。
-- 共 52,525 条归档文件记录（包含增量版本，不等于去重后的文件总数）。
-- 原始基线 20 包保留，含全部音乐；另补充 9 包，约 395 MB。
+- 共 31 个包、254 个加密分卷，压缩后约 31.00 GB。
+- 共 53,956 条归档文件记录（包含增量版本，不等于去重后的文件总数）。
+- 原始基线 20 包保留，含全部音乐；另补充 11 包，约 416 MB。
 - 所有归档文件均在本地读取并核对 SHA-256；加密分卷做过解密往返验证。
 - 所有远程分卷均核对 GitHub 的 SHA-256 和大小。
 - 实际从 GitHub 下载完整 Codex 核心基线和当天增量，解密并还原 2266 + 243 条文件记录。
@@ -45,11 +45,14 @@
 | supplement-wsl-nanoclaw-20261022 | `/home/klsm/nanoclaw` | 4981 | 0.070 | wsl |
 | supplement-wsl-user-service-20261022 | `/home/klsm/.config/systemd/user` | 8 | 0.000 | wsl |
 | supplement-workspace-ignored-data-20261022 | `D:\Workspace` | 1134 | 0.171 | windows |
+| supplement-claude-windows-home-20261022 | `C:\Users\klsm\.claude` | 952 | 0.015 | windows |
+| supplement-claude-wsl-home-20261022 | `/home/klsm/.claude` | 479 | 0.006 | wsl |
 
 ## 范围与未包含项
 
 - D:\Workspace 全量继续使用 klsm_workspace；这次仅额外加密保存 24 个未提交/未跟踪文件，没有向原公开仓库提交变更。
 - 另加密保存被 Git 忽略的源资料、应用数据和测试证据；排除依赖目录及 Git 嵌套备份，不影响原工作区。
+- Claude Code 的 Windows 和 WSL 个人技能、配置、项目记忆及历史已加密补存；个人目录没有独立 CLAUDE.md，认证文件和配置备份已排除。
 - NanoClaw 实际部署、用户服务和独立 Windows Codex 数据已补存；原运行服务未被停止、重启或修改，没有发送对外测试消息。
 - .env、私钥、OAuth 等已识别认证文件与浏览器数据未上传，需本人重新配置。
 - 安装依赖、运行时和缓存可重装；WSL 整机、Docker 镜像和两个 Prometheus 卷内历史数据未导出。

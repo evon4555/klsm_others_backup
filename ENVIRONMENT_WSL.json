@@ -1,0 +1,14 @@
+{
+  "NAME": "Ubuntu",
+  "VERSION_ID": "24.04",
+  "VERSION": "24.04.3 LTS (Noble Numbat)",
+  "node": "v22.22.0",
+  "npm": "10.9.4",
+  "python": "Python 3.12.3",
+  "docker": "Docker version 29.3.0, build 5927d80",
+  "nanoclaw_source": "/home/klsm/nanoclaw",
+  "excluded_docker_volumes": [
+    "infra_prometheus-data",
+    "testautomation2_prometheus-data"
+  ]
+}

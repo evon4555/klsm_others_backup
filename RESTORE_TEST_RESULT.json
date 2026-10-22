@@ -1,0 +1,19 @@
+{
+  "result": "passed",
+  "downloaded_from_github": true,
+  "portable_kit_key_verified": true,
+  "baseline_files_verified": 2266,
+  "delta_files_verified": 243,
+  "restored_sqlite_integrity_checked": [
+    "goals_1.sqlite",
+    "memories_1.sqlite",
+    "queue_1.sqlite",
+    "state_5.sqlite",
+    "thread_history_1.sqlite",
+    "sqlite\\codex-dev.db"
+  ],
+  "required_history_skills_memory_and_config_present": true,
+  "credential_file_excluded": true,
+  "new_physical_machine_app_launch_tested": false,
+  "restored_json_toml_syntax_valid": true
+}

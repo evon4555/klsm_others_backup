@@ -2065,6 +2065,220 @@
       },
       "snapshot_started_at": "2026-10-21T13:36:08.096662+00:00",
       "snapshot_completed_at": "2026-10-21T13:48:06.219559+00:00"
+    },
+    {
+      "id": "delta-20261022-codex-home",
+      "source": "C:\\Users\\klsm\\.codex",
+      "files": 243,
+      "source_bytes": 267768767,
+      "zip_bytes": 110817844,
+      "zip_sha256": "aa4e2ec0c478b8441b41a40f02588872fc1ec2f6c575f38bfe21a9d7fcb7478e",
+      "parts": [
+        {
+          "name": "delta-20261022-codex-home.0001.cbx",
+          "bytes": 110817876,
+          "sha256": "10ee7d5794c6bbc9dd75e9de1ee460365e5a867b24401c0599ba8075fee66ec3",
+          "asset_id": 664639982,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/delta-20261022-codex-home.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:17.511238+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:22.941887+00:00",
+      "base_package_id": "codex-home",
+      "is_delta": true
+    },
+    {
+      "id": "delta-20261022-codex-store-appdata",
+      "source": "C:\\Users\\klsm\\AppData\\Local\\Packages\\OpenAI.Codex_2p2nqsd0c76g0",
+      "files": 7,
+      "source_bytes": 25925101,
+      "zip_bytes": 1697072,
+      "zip_sha256": "cee0eacf19ecd748e168ff3411712edfdf9db27a8c2fdc51581957931a6f69f0",
+      "parts": [
+        {
+          "name": "delta-20261022-codex-store-appdata.0001.cbx",
+          "bytes": 1697104,
+          "sha256": "3679c3268cb673ceee4330809700584fc4119b620234f595bd623f7856aaf067",
+          "asset_id": 664639254,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/delta-20261022-codex-store-appdata.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:24.875629+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:25.176266+00:00",
+      "base_package_id": "codex-store-appdata",
+      "is_delta": true
+    },
+    {
+      "id": "delta-20261022-codex-documents",
+      "source": "C:\\Users\\klsm\\Documents\\Codex",
+      "files": 1,
+      "source_bytes": 14774272,
+      "zip_bytes": 3911928,
+      "zip_sha256": "eedf7be9e3fb9012a6ef0670a5f0357da7fe30dfc94fadff4d7e04052ea8c0d2",
+      "parts": [
+        {
+          "name": "delta-20261022-codex-documents.0001.cbx",
+          "bytes": 3911960,
+          "sha256": "3a298aa8547f3999ae9e0935349aa89492297881c74485980bb3f450a94a3fa1",
+          "asset_id": 664639290,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/delta-20261022-codex-documents.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:26.575089+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:26.800120+00:00",
+      "base_package_id": "codex-documents",
+      "is_delta": true
+    },
+    {
+      "id": "delta-20261022-workspace-tools-project-02",
+      "source": "D:\\workspace_tools\\Exam",
+      "files": 2,
+      "source_bytes": 290816,
+      "zip_bytes": 17417,
+      "zip_sha256": "531e97b77cbd2d92add1950b460a19908c6be5bce421758c0d3d1e382b634826",
+      "parts": [
+        {
+          "name": "delta-20261022-workspace-tools-project-02.0001.cbx",
+          "bytes": 17449,
+          "sha256": "943e19566d5b56afbe2f44e9d5c5e3043c15c82553cbee2eb7a5304ef3a25ff1",
+          "asset_id": 664639255,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/delta-20261022-workspace-tools-project-02.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:32.549028+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:32.594256+00:00",
+      "base_package_id": "workspace-tools-project-02",
+      "is_delta": true
+    },
+    {
+      "id": "supplement-workspace-uncommitted-20261022",
+      "source": "D:\\Workspace",
+      "files": 24,
+      "source_bytes": 10240121,
+      "zip_bytes": 9959669,
+      "zip_sha256": "7fac0f38db546fd75cd26cdf8e95c34cb9beacd148cd3b86bb31a797e13bce9a",
+      "parts": [
+        {
+          "name": "supplement-workspace-uncommitted-20261022.0001.cbx",
+          "bytes": 9959701,
+          "sha256": "fc129885f7ca9efd5dc8bae046a82465fd45f6dc64d920e99505a468e1907e9e",
+          "asset_id": 664639312,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-workspace-uncommitted-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:37.595147+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:38.338242+00:00",
+      "git_base_commit": "650df01b3cc4df3cf9ac2382b9145e804d65fd48"
+    },
+    {
+      "id": "supplement-nanoclaw-codex-home-20261022",
+      "source": "C:\\Users\\klsm\\AppData\\Local\\NanoClaw\\codex-home",
+      "files": 198,
+      "source_bytes": 28249384,
+      "zip_bytes": 26977344,
+      "zip_sha256": "9f115bbe1a15da9b00640b315c813d563aa0ad614e3901e01e0f9deb12dc36d4",
+      "parts": [
+        {
+          "name": "supplement-nanoclaw-codex-home-20261022.0001.cbx",
+          "bytes": 26977376,
+          "sha256": "ea0733d94af541356542d64ac465ff98dbc60c012810ddd22efb9f1a6b47d0bc",
+          "asset_id": 664639337,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-nanoclaw-codex-home-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:09:38.710598+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:43.402900+00:00"
+    },
+    {
+      "id": "supplement-wsl-nanoclaw-20261022",
+      "source": "/home/klsm/nanoclaw",
+      "files": 4981,
+      "source_bytes": 239638558,
+      "zip_bytes": 70091711,
+      "zip_sha256": "4d88b286a03b9fc359c42b705fa86947b5f0cce0b89d9462df3b9c750185a62d",
+      "parts": [
+        {
+          "name": "supplement-wsl-nanoclaw-20261022.0001.cbx",
+          "bytes": 70091743,
+          "sha256": "4e492bd4fad6c70c93cb5aa70542cec1e247cbccad73bfc565b0066ce94084a5",
+          "asset_id": 664639625,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-wsl-nanoclaw-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "wsl",
+      "snapshot_started_at": "2026-10-22T04:09:26.493522+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:34.566481+00:00"
+    },
+    {
+      "id": "supplement-wsl-user-service-20261022",
+      "source": "/home/klsm/.config/systemd/user",
+      "files": 8,
+      "source_bytes": 5818,
+      "zip_bytes": 5396,
+      "zip_sha256": "943c6a4a1a44a4978216c2dc1e7a06dd5d73d628e8f7a4046917eac41d25fb1a",
+      "parts": [
+        {
+          "name": "supplement-wsl-user-service-20261022.0001.cbx",
+          "bytes": 5428,
+          "sha256": "b53caca15adf5b46bd7b3fff1e90af50db156c223d6e92a7109674efa97dda4c",
+          "asset_id": 664639257,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-wsl-user-service-20261022.0001.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "wsl",
+      "snapshot_started_at": "2026-10-22T04:09:34.666838+00:00",
+      "snapshot_completed_at": "2026-10-22T04:09:34.680506+00:00"
+    },
+    {
+      "id": "supplement-workspace-ignored-data-20261022",
+      "source": "D:\\Workspace",
+      "files": 1134,
+      "source_bytes": 188373853,
+      "zip_bytes": 171454333,
+      "zip_sha256": "2f4c8ac5d7a646b16310030d7df49db7cf011e3c83bca6f50679c3de779f82eb",
+      "parts": [
+        {
+          "name": "supplement-workspace-ignored-data-20261022.0001.cbx",
+          "bytes": 134217760,
+          "sha256": "2df3ba083d1422cc69dc7cf532982010b851b75aaa836fd5d73c73b08d4434eb",
+          "asset_id": 664667093,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-workspace-ignored-data-20261022.0001.cbx"
+        },
+        {
+          "name": "supplement-workspace-ignored-data-20261022.0002.cbx",
+          "bytes": 37236637,
+          "sha256": "3e23cd85d6b52eb15e66e4ba1cfe8c0257d80139109f001547f194e4b1310803",
+          "asset_id": 664665495,
+          "download_url": "https://github.com/evon4555/klsm_others_backup/releases/download/migration-2026-10-21/supplement-workspace-ignored-data-20261022.0002.cbx"
+        }
+      ],
+      "errors": 0,
+      "warnings": 0,
+      "target_platform": "windows",
+      "snapshot_started_at": "2026-10-22T04:25:30.721261+00:00",
+      "snapshot_completed_at": "2026-10-22T04:25:57.214473+00:00"
     }
   ],
   "completed_at": "2026-10-21T13:50:56.689250+00:00",
@@ -2081,11 +2295,63 @@
       "restored_file_sha256_verified": true,
       "package": "codex-desktop-roaming",
       "restored_files": 17
+    },
+    "full_core_remote_restore": {
+      "result": "passed",
+      "downloaded_from_github": true,
+      "portable_kit_key_verified": true,
+      "baseline_files_verified": 2266,
+      "delta_files_verified": 243,
+      "restored_sqlite_integrity_checked": [
+        "goals_1.sqlite",
+        "memories_1.sqlite",
+        "queue_1.sqlite",
+        "state_5.sqlite",
+        "thread_history_1.sqlite",
+        "sqlite\\codex-dev.db"
+      ],
+      "required_history_skills_memory_and_config_present": true,
+      "credential_file_excluded": true,
+      "new_physical_machine_app_launch_tested": false,
+      "restored_json_toml_syntax_valid": true
     }
   },
   "scope_confirmation": {
     "date": "2026-10-22",
     "music_included": true,
     "all_remote_assets_reverified_at": "2026-10-22T03:50:37.965332+00:00"
-  }
+  },
+  "supplement_verified_at": "2026-10-22T04:30:34.961859+00:00",
+  "restore_order": [
+    "codex-home",
+    "codex-desktop-roaming",
+    "codex-store-appdata",
+    "codex-documents",
+    "downloads-sun2",
+    "workspace-tools-rootfiles",
+    "workspace-tools-project-01",
+    "workspace-tools-project-02",
+    "workspace-tools-project-03",
+    "workspace-tools-project-04",
+    "workspace-tools-project-05",
+    "workspace-tools-project-06",
+    "workspace-tools-project-07",
+    "workspace-tools-project-08",
+    "workspace-tools-project-09",
+    "workspace-tools-project-10",
+    "workspace-tools-project-11",
+    "workspace-tools-project-12",
+    "workspace-tools-project-13",
+    "workspace-tools-project-14",
+    "delta-20261022-codex-home",
+    "delta-20261022-codex-store-appdata",
+    "delta-20261022-codex-documents",
+    "delta-20261022-workspace-tools-project-02",
+    "supplement-workspace-uncommitted-20261022",
+    "supplement-nanoclaw-codex-home-20261022",
+    "supplement-wsl-nanoclaw-20261022",
+    "supplement-wsl-user-service-20261022",
+    "supplement-workspace-ignored-data-20261022"
+  ],
+  "handoff_completed_at": "2026-10-22T04:31:34.243356+00:00"
 }

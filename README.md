@@ -8,6 +8,14 @@
 
 ## 恢复步骤
 
+**优先阅读 [新电脑恢复说明](新电脑恢复说明.md)。** 2026-10-22 已补存未提交工作区文件、NanoClaw 的 WSL 部署、独立 Codex 数据及当天增量。还原时先基线、再增量；Linux 包应在 WSL 中单独恢复。恢复工具默认按当前平台筛选。
+
+无需安装 GitHub CLI 也可使用自带的 `download_backup.py` 下载；它通过已有 Git/GitHub 登录授权，支持校验已有分卷、断点续传和重试。示例：
+
+```powershell
+python download_backup.py --assets D:\Codex备份分卷
+```
+
 1. 从旧电脑另存 `恢复密钥_请单独保存.json`，建议保存到加密移动硬盘或密码管理器的安全附件。不要把密钥上传 GitHub。
 2. 克隆本仓库或下载其代码 ZIP，安装 Python 3.10+ 和依赖：
 

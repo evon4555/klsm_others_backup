@@ -13,7 +13,7 @@ from cryptography.hazmat.primitives.ciphers.aead import AESGCM
 MAGIC = b'CBX1'
 
 def read_key(path):
-    obj = json.loads(Path(path).read_text(encoding='utf-8'))
+    obj = json.loads(Path(path).read_text(encoding='utf-8-sig'))
     key = base64.b64decode(obj['key_base64'], validate=True)
     if len(key) != 32:
         raise ValueError('Expected a 256-bit recovery key')
@@ -67,6 +67,8 @@ def verify_extract(archive, destination, verify_only=False):
                 stamp = item.get('source_mtime_ns')
                 if stamp is not None:
                     os.utime(target, ns=(stamp, stamp))
+                if os.name != 'nt' and 'source_mode' in item:
+                    os.chmod(target, item['source_mode'])
         if not verify_only:
             destination.mkdir(parents=True, exist_ok=True)
             (destination / 'backup-manifest.json').write_text(
@@ -81,11 +83,16 @@ def main():
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--package')
     parser.add_argument('--verify-only', action='store_true')
+    parser.add_argument('--platform', choices=('auto', 'all', 'windows', 'wsl'), default='auto',
+                        help='Default auto restores Windows packages on Windows, WSL packages on Linux')
     args = parser.parse_args()
     key = read_key(args.key_file)
     manifest = json.loads(args.manifest.read_text(encoding='utf-8'))
     args.output.mkdir(parents=True, exist_ok=True)
     packages = [p for p in manifest['packages'] if not args.package or p['id'] == args.package]
+    if not args.package and args.platform != 'all':
+        platform = ('windows' if os.name == 'nt' else 'wsl') if args.platform == 'auto' else args.platform
+        packages = [p for p in packages if p.get('target_platform', 'windows') == platform]
     if not packages:
         raise ValueError('No matching backup package')
     for package in packages:
@@ -95,16 +102,19 @@ def main():
         archive = args.output / (package['id'] + '.verified.zip')
         if archive.exists():
             raise ValueError('Temporary archive already exists: ' + str(archive))
-        h = hashlib.sha256()
-        with archive.open('xb') as out:
-            for part in package['parts']:
-                plain = decrypt_part(args.assets / part['name'], part, key)
-                h.update(plain)
-                out.write(plain)
-        if h.hexdigest() != package['zip_sha256']:
-            raise ValueError('Combined archive checksum mismatch')
-        count = verify_extract(archive, dest, args.verify_only)
-        archive.unlink()
+        try:
+            h = hashlib.sha256()
+            with archive.open('xb') as out:
+                for part in package['parts']:
+                    plain = decrypt_part(args.assets / part['name'], part, key)
+                    h.update(plain)
+                    out.write(plain)
+            if h.hexdigest() != package['zip_sha256']:
+                raise ValueError('Combined archive checksum mismatch')
+            count = verify_extract(archive, dest, args.verify_only)
+        finally:
+            if archive.exists():
+                archive.unlink()
         print(json.dumps({'package': package['id'], 'verified_files': count,
                           'extracted': not args.verify_only}), flush=True)
 

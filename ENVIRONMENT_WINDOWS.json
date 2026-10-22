@@ -1,0 +1,14 @@
+{
+  "Date": "2026-10-22",
+  "Windows": "Microsoft Windows NT 10.0.26200.0",
+  "CodexAppVersion": "26.1013.4894.0",
+  "Git": "2.52.0.windows.1",
+  "Python": "3.13.11",
+  "Node": "24.14.0",
+  "Npm": "11.18.0",
+  "WslDistribution": "Ubuntu",
+  "Credentials": "Excluded; reauthentication required",
+  "CodexCliVersion": "0.146.0",
+  "OfficeVersion": "16.0.20430.20182",
+  "OfficePlatform": "x64"
+}
